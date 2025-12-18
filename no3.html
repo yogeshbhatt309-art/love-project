@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Last Chance 😭</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<script>
+  if (window.location.pathname.indexOf("index.html") === -1) {
+    if (performance.getEntriesByType("navigation")[0].type === "reload") {
+      window.location.href = "index.html";
+    }
+  }
+</script>
+
+<body>
+  <div class="container">
+    <img src="gifs/no3.gif" class="gif" alt="no3 gif">
+
+    <h1>Taniya maan jao na 😭</h1>
+    <p>Ab toh haan bol do ❤️</p>
+
+    <div class="btn">
+      <a href="yes.html">Yes 😘</a>
+      <a href="#" id="move-random">No 😜</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Soch lo 😣</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<script>
+  if (window.location.pathname.indexOf("index.html") === -1) {
+    if (performance.getEntriesByType("navigation")[0].type === "reload") {
+      window.location.href = "index.html";
+    }
+  }
+</script>
+
+<body>
+  <div class="container">
+    <img src="gifs/no2.gif" class="gif" alt="no2 gif">
+
+    <h1>Ek aur baar soch lo 😣</h1>
+    <p>Please maan jao na 💔</p>
+
+    <div class="btn">
+      <a href="yes.html">Yes 🥰</a>
+      <a href="no3.html">No 😶</a>
+    </div>
+  </div>
+</body>
+</html>
